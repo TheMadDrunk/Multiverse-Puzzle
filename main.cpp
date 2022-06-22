@@ -116,7 +116,7 @@ int main(){
             }
             if(GuiButton(TutoButton,"Tutoriel"))show_win_tuto= -1;
             if(show_win_tuto== -1)
-            show_win_tuto = GuiMessageBox(Rectangle{S_WIDTH/2-125,S_WIDTH/2 + 100,250,200},"TUTO","You will only need \nthe arrow keys to move.\n get all the hearts at the same time in minimum moves to win","OK!");
+            show_win_tuto = GuiMessageBox(Rectangle{S_WIDTH/2-125,S_WIDTH/2 + 100,350,200},"TUTO","You will only need \nthe arrow keys to move.\n get all the hearts at the same time in minimum moves to win","OK!");
             EndDrawing();
         }
         if(appState == PICKLEVEL){
