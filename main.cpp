@@ -5,8 +5,8 @@
 #define RAYGUI_IMPLEMENTATION
 #include "raygui.h"
 
-#include "level.h"
-#include "game.h"
+#include "level.hpp"
+#include "game.hpp"
 
 #define S_WIDTH 800
 #define S_HEIGHT 720

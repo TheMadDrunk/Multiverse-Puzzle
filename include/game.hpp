@@ -4,8 +4,8 @@
 #include <algorithm>
 #include <vector>
 #include "raylib.h"
-#include "sprite.h"
-#include "level.h"
+#include "sprite.hpp"
+#include "level.hpp"
 #include <iostream>
 
 #define TILE_SIZE 16
